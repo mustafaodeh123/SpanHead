@@ -1,0 +1,25 @@
+﻿<div class="row">
+    <div class="col-md-6">
+        <div class="container">
+            <div class="card card-container">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <p id="profile-name" class="profile-name-card"></p>
+                <div class="form-signin">
+                    <span id="reauth-email" class="reauth-email"></span>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required email [(ngModel)]="appUser.userName" autofocus>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required [(ngModel)]="appUser.password">
+                    <div id="remember" class="checkbox">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" (click)="login()">Sign in</button>
+                    <div class="alert alert-danger" *ngIf="errorMsg && errorMsg.length">{{errorMsg}}</div>
+                </div><!-- /form -->
+                <a href="#" class="forgot-password">
+                    Forgot the password?
+                </a>
+            </div><!-- /card-container -->
+        </div>
+    </div>
+</div>

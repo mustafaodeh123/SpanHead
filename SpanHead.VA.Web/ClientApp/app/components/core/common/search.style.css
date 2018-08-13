@@ -1,0 +1,34 @@
+﻿input {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-bottom: 3px solid #3ea712 !important;
+    font-size: 1.9rem !important;
+    color: #4d575d !important;
+    font-weight: 200;
+    padding: 0 0 5px 0 !important;
+}
+
+    input:focus {
+        outline: none;
+    }
+
+    input::-webkit-input-placeholder {
+        color: #4d575d !important;
+        font-size:1.3rem !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+        color: #4d575d !important;
+        font-size: 1.3rem !important;
+    }
+
+    input::-moz-placeholder { /* Firefox 19+ */
+        color: #4d575d !important;
+        font-size: 1.3rem !important;
+    }
+
+    input:-ms-input-placeholder {
+        color: #4d575d !important;
+        font-size: 1.3rem !important;
+    }

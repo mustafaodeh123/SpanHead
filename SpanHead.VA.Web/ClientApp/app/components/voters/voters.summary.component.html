@@ -1,0 +1,75 @@
+﻿<div class="row" style="padding-bottom:10px;"></div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                {{componentTitle}}
+            </div>
+            <div class="panel-body">
+                <div [ngSwitch]="viewMode">
+                    <div *ngSwitchCase="'votersList'">
+                        <div class="row" style="padding-bottom:30px;">
+                            <!--<div class="col-md-2">Filter by:</div>-->
+                            <!--<div class="col-md-6" style="margin-left:15px;" [@focusPanel]="focusPanel">
+                                <input type="text" [(ngModel)]="listFilter" placeholder="Search by name/address." (focus)="toggleFocus()" (focusout)="toggleFocus()" />
+                            </div>-->
+                            <div class="col-md-6" style="margin-left:15px;">
+                                <input type="text" [(ngModel)]="listFilter" placeholder="Search by name/address." (ngModelChange)="filterVoter($event)" />
+                            </div>
+                        </div>
+                        <div class="row" *ngIf="voters && voters.length; else msgView">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Precinct Name</th>
+                                            <th>Race</th>
+                                            <th>Birth Date</th>
+                                            <th>Register Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let v of voters" (click)="select(v)" style="cursor:pointer">
+                                            <td>{{v.firstName}} {{v.lastName}}</td>
+                                            <td>{{v.precinctName}}</td>
+                                            <td>{{v.race}}</td>
+                                            <td>{{v.birthDate}}</td>
+                                            <td>{{v.registerDate | date:'MM/dd/yyyy'}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ng-template #msgView>
+                                <div *ngIf="errorMsg && errorMsg.length; else noData" class="alert alert-warning">
+                                    <span class='glyphicon glyphicon-alert'></span>
+                                    <strong>{{errorMsg}}</strong>
+                                </div>
+                                <ng-template #noData>
+                                    <div class="alert alert-info">
+                                        <span class='glyphicon glyphicon-info-sign'></span>
+                                        <strong>Our database shows no result for your search, please try again!</strong>
+                                    </div>
+                                </ng-template>
+                            </ng-template>
+                        </div>
+                    </div>
+                    <!-- this line here to bind the selectedvoter to the metadata @inpot function that declared in the component-->
+                    <div *ngSwitchCase="'voterDetails'">
+                        <div style="padding-bottom:20px">
+                            <voter-details *ngIf="selectedVoter" [voter]="selectedVoter">loading voter details...</voter-details>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary" (click)="changeView()">
+                                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                                Back
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

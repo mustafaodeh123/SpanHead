@@ -1,0 +1,106 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanHead.VA.Web", "SpanHead.VA.Web\SpanHead.VA.Web.csproj", "{127F51BB-333D-4A66-88FC-B25E6A0612E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F2AA80C7-21FA-4938-82DA-D432F957AB49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossApps", "CrossApps", "{92884225-BAEA-4150-94FC-49E04A192EBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanHead.VA.DTO", "SpanHead.VA.DTO\SpanHead.VA.DTO.csproj", "{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanHead.VA.Business", "SpanHead.VA.Business\SpanHead.VA.Business.csproj", "{D76426D0-2BA1-4A7D-BF2C-3E1789042237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanHead.VA.Repository", "SpanHead.VA.Repository\SpanHead.VA.Repository.csproj", "{F5068D11-C391-4F78-A480-6EC9DC221EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|x64.Build.0 = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Debug|x86.Build.0 = Debug|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|x64.ActiveCfg = Release|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|x64.Build.0 = Release|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7}.Release|x86.Build.0 = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|x64.Build.0 = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635}.Release|x86.Build.0 = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|x64.Build.0 = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Debug|x86.Build.0 = Debug|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|x64.ActiveCfg = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|x64.Build.0 = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|x86.ActiveCfg = Release|Any CPU
+		{D76426D0-2BA1-4A7D-BF2C-3E1789042237}.Release|x86.Build.0 = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|x64.Build.0 = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Debug|x86.Build.0 = Debug|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|x64.Build.0 = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5068D11-C391-4F78-A480-6EC9DC221EB3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{127F51BB-333D-4A66-88FC-B25E6A0612E7} = {F2AA80C7-21FA-4938-82DA-D432F957AB49}
+		{BE6374D3-6581-4E0D-B6CB-E9FCE64DE635} = {92884225-BAEA-4150-94FC-49E04A192EBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F0BF5B-6441-4B2C-B977-C4AF32DBCB25}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mma3.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SpanHead.VA.Web\\SpanHead.VA.Web.csproj
+		SccProjectTopLevelParentUniqueName1 = VotingApp.sln
+		SccProjectName1 = SpanHead.VA.Web
+		SccLocalPath1 = SpanHead.VA.Web
+		SccProjectUniqueName2 = SpanHead.VA.DTO\\SpanHead.VA.DTO.csproj
+		SccProjectTopLevelParentUniqueName2 = VotingApp.sln
+		SccProjectName2 = SpanHead.VA.DTO
+		SccLocalPath2 = SpanHead.VA.DTO
+		SccProjectUniqueName3 = SpanHead.VA.Business\\SpanHead.VA.Business.csproj
+		SccProjectName3 = SpanHead.VA.Business
+		SccLocalPath3 = SpanHead.VA.Business
+		SccProjectUniqueName4 = SpanHead.VA.Repository\\SpanHead.VA.Repository.csproj
+		SccProjectName4 = SpanHead.VA.Repository
+		SccLocalPath4 = SpanHead.VA.Repository
+	EndGlobalSection
+EndGlobal
